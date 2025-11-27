@@ -1,0 +1,25 @@
+{
+    "name": "uppercase-selection",
+    "displayName": "Uppercase Selection",
+    "description": "Преобразует выделенный текст в ВЕРХНИЙ РЕГИСТР",
+    "version": "0.0.1",
+    "publisher": "student",
+    "engines": {
+        "vscode": "^1.80.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:uppercase-selection.convert"
+    ],
+    "main": "./extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "uppercase-selection.convert",
+                "title": "Uppercase Selection"
+            }
+        ]
+    }
+}
